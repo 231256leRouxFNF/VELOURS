@@ -140,304 +140,60 @@ body {
 }
 
 /* HERO SECTION */
-.container,
-.container * {
-  box-sizing: border-box;
-}
-.container {
-  background: #ddd5c5;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 1348.72px;
-  min-height: 640px;
+.hero {
   position: relative;
-  overflow: hidden;
+  min-height: 90vh;
+
 }
-.image-bride-in-an-elegant-white-gown {
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 1348.72px;
-  position: relative;
-  overflow: hidden;
+
+.hero-image {
+  width: 100%;
+  height: 90vh;
   object-fit: cover;
+
 }
-.container2 {
-  background: linear-gradient(
-    90deg,
-    rgba(24, 21, 15, 0.55) 0%,
-    rgba(24, 21, 15, 0.2) 50%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  flex-shrink: 0;
-  width: 2174px;
-  height: 1348.72px;
+
+.nero-overlay {
   position: absolute;
-  left: 0px;
-  top: 0px;
+  inset: 0;
+
+  background:
+      linear-gradient(
+        to right,
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55),
+
+      );
+
 }
-.container3 {
-  padding: 0px 80px 80px 80px;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 608px;
-  max-width: 672px;
+
+.hero-content {
   position: absolute;
-  left: 0px;
-  top: 767.22px;
+  left: 8%;
+  bottom: 12%;
+  max-width: 600px;
+  color: white;
+
 }
-.paragraph {
+
+.hero-title {
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: 1;
+  margin-bottom: 1rem;
+  font-family: "Italiana", serif;
+
+}
+
+.hero-description {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  max-width: 500px;
+
+}
+
+.hero-action {
   display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
+  gap: 1rem;
+
 }
-._2025-bridal-collection {
-  color: rgba(255, 255, 255, 0.7);
-  text-align: left;
-  font-family: "DmSans-9PtRegular", sans-serif;
-  font-size: 11px;
-  line-height: 16.5px;
-  letter-spacing: 3.08px;
-  font-weight: 400;
-  text-transform: uppercase;
-  position: relative;
-}
-.heading-1 {
-  padding: 20px 0px 0px 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 448px;
-  height: 308px;
-  position: relative;
-}
-.dressed-for-your-finest-day {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Italiana-Regular", sans-serif;
-  font-size: 96px;
-  line-height: 96px;
-  font-weight: 400;
-  position: relative;
-}
-.paragraph2 {
-  padding: 32px 0px 0px 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 448px;
-  max-width: 448px;
-  position: relative;
-}
-.couture-bridal-gowns-tuxedos-and-formal-wear-m {
-  color: rgba(255, 255, 255, 0.6);
-  text-align: left;
-  font-family: "DmSans-Light", sans-serif;
-  font-size: 14px;
-  line-height: 28px;
-  letter-spacing: 0.35px;
-  font-weight: 300;
-  position: relative;
-  width: 448px;
-}
-.container-margin {
-  padding: 40px 0px 0px 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.container4 {
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 49px;
-  position: relative;
-}
-.button {
-  background: #ffffff;
-  padding: 16px 36px 16px 36px;
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.explore-collection {
-  color: #18150f;
-  text-align: center;
-  font-family: "DmSans-Medium", sans-serif;
-  font-size: 10px;
-  line-height: 15px;
-  letter-spacing: 2.2px;
-  font-weight: 500;
-  text-transform: uppercase;
-  position: relative;
-}
-.icon {
-  flex-shrink: 0;
-  width: 13px;
-  height: 13px;
-  position: relative;
-  overflow: visible;
-}
-.button2 {
-  border-style: solid;
-  border-color: rgba(255, 255, 255, 0.5);
-  border-width: 1px;
-  padding: 16px 36px 16px 36px;
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 258.55px;
-  top: 0px;
-}
-.our-atelier {
-  color: #ffffff;
-  text-align: center;
-  font-family: "DmSans-Medium", sans-serif;
-  font-size: 10px;
-  line-height: 15px;
-  letter-spacing: 2.2px;
-  font-weight: 500;
-  text-transform: uppercase;
-  position: relative;
-}
-.container5 {
-  background: rgba(248, 244, 238, 0.9);
-  padding: 16px 24px 16px 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 149.13px;
-  position: absolute;
-  left: 1960.88px;
-  top: 1197.22px;
-}
-.as-seen-here {
-  color: #6e6355;
-  text-align: left;
-  font-family: "DmSans-9PtRegular", sans-serif;
-  font-size: 9px;
-  line-height: 13.5px;
-  letter-spacing: 2.16px;
-  font-weight: 400;
-  text-transform: uppercase;
-  position: relative;
-}
-.paragraph3 {
-  padding: 4px 0px 0px 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 101.13px;
-  height: 24px;
-  position: relative;
-}
-.the-elara-gown {
-  color: #18150f;
-  text-align: left;
-  font-family: "Italiana-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.56px;
-  font-weight: 400;
-  position: relative;
-}
-.paragraph4 {
-  padding: 2px 0px 0px 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 101.13px;
-  height: 18px;
-  position: relative;
-}
-.from-2-890 {
-  color: #6e6355;
-  text-align: left;
-  font-family: "DmSans-9PtRegular", sans-serif;
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 400;
-  position: relative;
-}
-.button3 {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: absolute;
-  left: 1064.5px;
-  top: 1280.97px;
-}
-.scroll {
-  color: rgba(255, 255, 255, 0.5);
-  text-align: center;
-  font-family: "DmSans-Medium", sans-serif;
-  font-size: 9px;
-  line-height: 13.5px;
-  letter-spacing: 1.8px;
-  font-weight: 500;
-  text-transform: uppercase;
-  position: relative;
-}
-.icon-transform {
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 14px;
-  height: 14px;
-  position: relative;
-}
-.icon2 {
-  flex-shrink: 0;
-  width: 14px;
-  height: 14px;
-  position: absolute;
-  left: 0px;
-  top: -0.11px;
-  overflow: visible;
-}
+

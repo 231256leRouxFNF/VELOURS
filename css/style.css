@@ -33,213 +33,262 @@ a {
     margin-inline: auto;
 }
 
-/* announcement */
-.announcement-container,
-.announcement {
-    background: var(--clr-primary);
-    color: var(--clr-white);
+/* ===== RESET ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ===== TOP BAR ===== */
+
+.announcement-bar {
+    background-color: #111;
+    color: #fff;
     text-align: center;
-    padding: 12px 16px 12px 16px;
-    font-size: 0.9rem;
-    font-family: "DmSans", sans-serif;
-
+    padding: 0.7rem;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
-/* Navivgation */
-.container-margin,
-.container-margin * {
-  box-sizing: border-box;
+/* ===== NAVBAR ===== */
+
+.navbar {
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+
+    padding: 0 5%;
+    background-color: #f8f5f0;
+    border-bottom: 1px solid #e5e5e5;
 }
 
-/*Leftside of Navigation*/
-.container-margin {
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
+/* Left */
 
+.nav-left {
+    display: flex;
+    gap: 2rem;
 }
 
-.container {
-  flex-shrink: 0;
-  width: 1440px;
-  height: 72px;
-  max-width: 1440px;
-  position: relative;
-
+.nav-left a {
+    text-decoration: none;
+    color: #555;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
 }
 
-.nav {
-  padding: 0px 80px 0px 0px;
-  display: flex;
-  flex-direction: row;
-  gap: 28px;
-  align-items: center;
-  justify-content: flex-start;
-  width: 442.66px;
-  position: absolute;
-  left: 56px;
-  top: 27.75px;
-
+.nav-left a:hover {
+    color: #000;
 }
 
-.page-links {
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
+/* Logo */
 
+.nav-logo {
+    text-align: center;
 }
 
-.home {
-  color: #18150f;
-  text-align: center;
-  font-family: "DmSans-Medium", sans-serif;
-  font-size: 11px;
-  line-height: 16.5px;
-  letter-spacing: 1.98px;
-  font-weight: 500;
-  text-transform: uppercase;
-  position: relative;
-
+.nav-logo a {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.8rem;
+    letter-spacing: 10px;
+    font-weight: 300;
 }
 
-.shop {
-  color: rgba(24, 21, 15, 0.45);
-  text-align: center;
-  font-family: "DmSans-Medium", sans-serif;
-  font-size: 11px;
-  line-height: 16.5px;
-  letter-spacing: 1.98px;
-  font-weight: 500;
-  text-transform: uppercase;
-  position: relative;
+/* Right */
 
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
 }
 
-.about {
-  color: rgba(24, 21, 15, 0.45);
-  text-align: center;
-  font-family: "DmSans-Medium", sans-serif;
-  font-size: 11px;
-  line-height: 16.5px;
-  letter-spacing: 1.98px;
-  font-weight: 500;
-  text-transform: uppercase;
-  position: relative;
-
+.icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
-.blog {
-  color: rgba(24, 21, 15, 0.45);
-  text-align: center;
-  font-family: "DmSans-Medium", sans-serif;
-  font-size: 11px;
-  line-height: 16.5px;
-  letter-spacing: 1.98px;
-  font-weight: 500;
-  text-transform: uppercase;
-  position: relative;
-
-}
-
-.button2 {
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: center;
-  width: 442.67px;
-  height: 39px;
-  position: absolute;
-  left: 498.66px;
-  top: 16.5px;
-
-}
-
-.text {
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-
-}
-
-/*Middle Navigation Text*/
-.velours {
-  color: #18150f;
-  text-align: center;
-  font-family: "Italiana-Regular", sans-serif;
-  font-size: 26px;
-  line-height: 39px;
-  letter-spacing: 11.7px;
-  font-weight: 400;
-  text-transform: uppercase;
-  position: relative;
-
-}
-
-/*Rightside of Navigation*/
-.right-buttons {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  align-items: center;
-  justify-content: flex-end;
-  width: 442.66px;
-  position: absolute;
-  left: 941.33px;
-  top: 19.5px;
-
-}
-
-.icon-btns {
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-
-}
-
-.icons {
-  flex-shrink: 0;
-  width: 18px;
-  height: 18px;
-  position: relative;
-  overflow: visible;
-
+.icon-btn img {
+    width: 18px;
+    height: 18px;
 }
 
 .shop-btn {
-  border-style: solid;
-  border-color: #18150f;
-  border-width: 1px;
-  padding: 8px 24px 8px 24px;
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-
+    text-decoration: none;
+    color: #222;
+    border: 1px solid #222;
+    padding: 0.8rem 1.6rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.3s ease;
 }
 
-.shop-text{
+.shop-btn:hover {
+    background-color: #222;
+    color: white;
+}
+
+/* HERO SECTION */
+.container,
+.container * {
+  box-sizing: border-box;
+}
+.container {
+  background: #ddd5c5;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1348.72px;
+  min-height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+.image-bride-in-an-elegant-white-gown {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1348.72px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.container2 {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 21, 15, 0.55) 0%,
+    rgba(24, 21, 15, 0.2) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  flex-shrink: 0;
+  width: 2174px;
+  height: 1348.72px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.container3 {
+  padding: 0px 80px 80px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 608px;
+  max-width: 672px;
+  position: absolute;
+  left: 0px;
+  top: 767.22px;
+}
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._2025-bridal-collection {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  font-family: "DmSans-9PtRegular", sans-serif;
+  font-size: 11px;
+  line-height: 16.5px;
+  letter-spacing: 3.08px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+}
+.heading-1 {
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 448px;
+  height: 308px;
+  position: relative;
+}
+.dressed-for-your-finest-day {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Italiana-Regular", sans-serif;
+  font-size: 96px;
+  line-height: 96px;
+  font-weight: 400;
+  position: relative;
+}
+.paragraph2 {
+  padding: 32px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 448px;
+  max-width: 448px;
+  position: relative;
+}
+.couture-bridal-gowns-tuxedos-and-formal-wear-m {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  font-family: "DmSans-Light", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.35px;
+  font-weight: 300;
+  position: relative;
+  width: 448px;
+}
+.container-margin {
+  padding: 40px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container4 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 49px;
+  position: relative;
+}
+.button {
+  background: #ffffff;
+  padding: 16px 36px 16px 36px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.explore-collection {
   color: #18150f;
   text-align: center;
   font-family: "DmSans-Medium", sans-serif;
@@ -249,5 +298,146 @@ a {
   font-weight: 500;
   text-transform: uppercase;
   position: relative;
-
+}
+.icon {
+  flex-shrink: 0;
+  width: 13px;
+  height: 13px;
+  position: relative;
+  overflow: visible;
+}
+.button2 {
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.5);
+  border-width: 1px;
+  padding: 16px 36px 16px 36px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 258.55px;
+  top: 0px;
+}
+.our-atelier {
+  color: #ffffff;
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 2.2px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+}
+.container5 {
+  background: rgba(248, 244, 238, 0.9);
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 149.13px;
+  position: absolute;
+  left: 1960.88px;
+  top: 1197.22px;
+}
+.as-seen-here {
+  color: #6e6355;
+  text-align: left;
+  font-family: "DmSans-9PtRegular", sans-serif;
+  font-size: 9px;
+  line-height: 13.5px;
+  letter-spacing: 2.16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+}
+.paragraph3 {
+  padding: 4px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 101.13px;
+  height: 24px;
+  position: relative;
+}
+.the-elara-gown {
+  color: #18150f;
+  text-align: left;
+  font-family: "Italiana-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.56px;
+  font-weight: 400;
+  position: relative;
+}
+.paragraph4 {
+  padding: 2px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 101.13px;
+  height: 18px;
+  position: relative;
+}
+.from-2-890 {
+  color: #6e6355;
+  text-align: left;
+  font-family: "DmSans-9PtRegular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.button3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 1064.5px;
+  top: 1280.97px;
+}
+.scroll {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 9px;
+  line-height: 13.5px;
+  letter-spacing: 1.8px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+}
+.icon-transform {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  position: relative;
+}
+.icon2 {
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 0px;
+  top: -0.11px;
+  overflow: visible;
 }

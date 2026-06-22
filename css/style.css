@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--clr-text);
+    background: var(--clr-secondary);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: min(90%, var(--container-width));
+    margin-inline: auto;
+}
+
+/* announcement */
+.announcement-container,
+.announcement {
+    background: var(--clr-primary);
+    color: var(--clr-white);
+    text-align: center;
+    padding: 12px 16px 12px 16px;
+    font-size: 0.9rem;
+    font-family: "DmSans", sans-serif;
+
+}
+
+/* Navivgation */
+.container-margin,
+.container-margin * {
+  box-sizing: border-box;
+}
+
+/*Leftside of Navigation*/
+.container-margin {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+
+}
+
+.container {
+  flex-shrink: 0;
+  width: 1440px;
+  height: 72px;
+  max-width: 1440px;
+  position: relative;
+
+}
+
+.nav {
+  padding: 0px 80px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 442.66px;
+  position: absolute;
+  left: 56px;
+  top: 27.75px;
+
+}
+
+.page-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+
+}
+
+.home {
+  color: #18150f;
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 11px;
+  line-height: 16.5px;
+  letter-spacing: 1.98px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+.shop {
+  color: rgba(24, 21, 15, 0.45);
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 11px;
+  line-height: 16.5px;
+  letter-spacing: 1.98px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+.about {
+  color: rgba(24, 21, 15, 0.45);
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 11px;
+  line-height: 16.5px;
+  letter-spacing: 1.98px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+.blog {
+  color: rgba(24, 21, 15, 0.45);
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 11px;
+  line-height: 16.5px;
+  letter-spacing: 1.98px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+.button2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 442.67px;
+  height: 39px;
+  position: absolute;
+  left: 498.66px;
+  top: 16.5px;
+
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+
+}
+
+/*Middle Navigation Text*/
+.velours {
+  color: #18150f;
+  text-align: center;
+  font-family: "Italiana-Regular", sans-serif;
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 11.7px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+/*Rightside of Navigation*/
+.right-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 442.66px;
+  position: absolute;
+  left: 941.33px;
+  top: 19.5px;
+
+}
+
+.icon-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+
+}
+
+.icons {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  overflow: visible;
+
+}
+
+.shop-btn {
+  border-style: solid;
+  border-color: #18150f;
+  border-width: 1px;
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+
+}
+
+.shop-text{
+  color: #18150f;
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 2.2px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+
+}

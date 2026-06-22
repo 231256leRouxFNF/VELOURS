@@ -1,0 +1,27 @@
+:root {
+
+    /* Colors */
+    --clr-primary: #111111;
+    --clr-secondary: #f8f5f2;
+    --clr-accent: #c4a77d;
+    --clr-text: #2d2d2d;
+    --clr-white: #ffffff;
+
+    /* Typography */
+    --ff-heading: "Cormorant Garamond", serif;
+    --ff-body: "Inter", sans-serif;
+
+    /* Font Sizes */
+    --fs-sm: 0.875rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.25rem;
+    --fs-xl: 2rem;
+    --fs-2xl: 3rem;
+    --fs-3xl: 4rem;
+
+    /* Widths */
+    --container-width: 1200px;
+
+    /* Transitions */
+    --transition: 0.3s ease;
+}

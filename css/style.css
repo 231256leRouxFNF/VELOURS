@@ -746,7 +746,7 @@ body {
             rgba(24, 21, 15, 0.5),
             rgba(24, 21, 15, 0.5)
         ),
-        url("../images/private-fitting.jpg");
+        url("../assets/images/private-fitting.svg");
 
     background-size: cover;
     background-position: center;
@@ -850,6 +850,23 @@ body {
     color: #6e6355;
 }
 
+.newsletter-message {
+    background: #18150f;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+
+}
+
+.hidden {
+    display: none;
+
+}
+
 /* FOOTER SECTION */
 .footer {
     max-width: 100%;
@@ -889,10 +906,10 @@ body {
     align-items: center;
 }
 
-/* DEBUGGING OUTLINES */
+/* DEBUGGING OUTLINES
 * {
     outline: 1px solid red !important;
-}
+} */
 
 
 /* =========================================
@@ -950,5 +967,19 @@ body {
 ========================================= */
 
 @media (max-width: 480px) {
+
+}
+
+/* nice to have */
+.fade-in {
+    opacity:  0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
 
 }

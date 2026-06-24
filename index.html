@@ -46,11 +46,18 @@
                     <a href="#shop" class="shop-btn">Shop Now</a>
                 </div>
             </nav>
+
+            <nav id="mobile-nav">
+                <button id="menu-btn">
+                      ☰
+                </button>
+            </nav>
+            
     </header>
 
     <main>
 
-        <section class="hero-section">                    
+        <section class="hero-section fade-in">                    
             <img
                 class="hero-image"
                 src="./assets/images/hero-image-2025.svg"
@@ -87,7 +94,7 @@
             </div>
         </section>
 
-        <section class="collections">
+        <section class="collections fade-in">
             <div class="collection-grid">
                 <article class="collection-card">
                     <img src="./assets/images/bridalgowns.svg" alt="Bridal Gown">
@@ -142,8 +149,7 @@
         </section>
 
         <!-- SHOP-ALL SECTION -->
-        <section>
-            <div class="shop-intro">
+        <section class="shop-intro fade-in">
                 <div class="shop-intro__container">
                     <p class="shop-intro__eyebrow">
                         The Velours Edit
@@ -157,11 +163,10 @@
                     </p>
                     </div>
                 </div>
-            </div>
         </section>
 
         <!-- FEATURED PICKS  -->
-         <section class="products">
+         <section class="products fade-in">
 
             <div class="section-header">
                 <div>
@@ -206,7 +211,8 @@
                     </div>
 
                 </article>
-                                <article class="product-card">
+
+                <article class="product-card">
 
                     <div class="product-image">
 
@@ -238,7 +244,8 @@
                     </div>
 
                 </article>
-                                <article class="product-card">
+
+                <article class="product-card">
 
                     <div class="product-image">
 
@@ -270,7 +277,8 @@
                     </div>
 
                 </article>
-                                <article class="product-card">
+
+                <article class="product-card">
 
                     <div class="product-image">
 
@@ -309,7 +317,7 @@
         </section>
 
            <!-- BRIDAL GOWNS  -->
-         <section class="products">
+         <section class="products fade-in">
 
             <div class="section-header">
                 <div>
@@ -354,7 +362,8 @@
                     </div>
 
                 </article>
-                                <article class="product-card">
+
+                <article class="product-card">
 
                     <div class="product-image">
 
@@ -386,7 +395,8 @@
                     </div>
 
                 </article>
-                                <article class="product-card">
+                
+                <article class="product-card">
 
                     <div class="product-image">
 
@@ -418,7 +428,8 @@
                     </div>
 
                 </article>
-                                <article class="product-card">
+
+                <article class="product-card">
 
                     <div class="product-image">
 
@@ -457,7 +468,7 @@
 
 
          <!-- TUXEDOS & SUITS -->
-         <section class="products">
+         <section class="products fade-in">
 
             <div class="section-header">
                 <div>
@@ -574,7 +585,7 @@
         </section>
 
         <!-- BRIDESMAID DRESSES -->
-         <section class="products">
+         <section class="products fade-in">
 
             <div class="section-header">
                 <div>
@@ -724,7 +735,7 @@
         </section>
 
         <!-- ACCESSORIES -->
-         <section class="products">
+         <section class="products fade-in">
 
             <div class="section-header">
                 <div>
@@ -840,7 +851,7 @@
 
         </section>
 
-        <section class="brand-story">
+        <section class="brand-story fade-in">
 
             <img
                 class="brand-story-image"
@@ -862,7 +873,7 @@
 
         </section>
 
-        <section class="brand-letter">
+        <section class="brand-letter fade-in">
 
             <div class="brand-letter-intro">
                 <p>
@@ -890,7 +901,7 @@
 
         </section>
 
-        <section class="benefits">
+        <section class="benefits fade-in">
 
             <div class="benefit">
                 <h3>Made to Order</h3>
@@ -915,7 +926,7 @@
         </section>
 
         <!-- TESTIMONIALS -->
-        <section class="testimonials">
+        <section class="testimonials fade-in">
 
             <div class="section-header">
                 <span class="eyebrow">Real Couples</span>
@@ -986,7 +997,7 @@
         </section>
 
         <!-- JOURNAL -->
-        <section class="journal">
+        <section class="journal fade-in">
 
             <div class="section-header">
                 <div>
@@ -1085,7 +1096,7 @@
         </section>
 
         <!-- APPOINTMENT -->
-        <section class="appointment-cta">
+        <section class="appointment-cta fade-in">
 
             <div class="cta-overlay">
                 <span class="eyebrow">
@@ -1094,7 +1105,7 @@
                 <h2 >
                     Book your private fitting
                 </h2>
-                <a href="#" class="booking-btn">
+                <a class="booking-btn" id="appointment-btn">
                     Request Appointment
                 </a>
             </div>
@@ -1102,7 +1113,7 @@
         </section>
 
         <!-- NEWSLETTER -->
-        <section class="newsletter">
+        <section class="newsletter fade-in">
 
             <span class="eyebrow">
                 Stay Inspired
@@ -1119,15 +1130,19 @@
             <form class="newsletter-form">
 
                 <input
-                    type="email"
+                    type="email" id="newsletter-email"
                     placeholder="Your email address"
                 >
 
-                <button>
+                <button type="submit">
                     Subscribe
                 </button>
 
             </form>
+
+            <div class="newsletter-message hidden">
+                Thank you for subscribing!
+            </div>
 
         </section>
     </main>

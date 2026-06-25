@@ -49,7 +49,7 @@ A luxury bridal and formalwear landing page inspired by modern couture fashion b
 
 ## Live Demo
 
-(Add deployment link)
+[Velours live page](https://velours-eight.vercel.app)
 
 ## Author
 

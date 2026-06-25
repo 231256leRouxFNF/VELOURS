@@ -1,4 +1,6 @@
-# Velours Bridal
+# Velours
+
+![Mockup 1](assets/mockups/mockup-1.png)
 
 A luxury bridal and formalwear landing page inspired by modern couture fashion brands.
 
@@ -38,9 +40,12 @@ A luxury bridal and formalwear landing page inspired by modern couture fashion b
 - Dark mode
 - CMS-powered journal articles
 
-## Screenshots
+## Mockups
 
-(Add screenshots here)
+![Mockup 2](assets/mockups/mockup2.png)
+
+![Mockup 3](assets/mockups/mockup-3.png)
+
 
 ## Live Demo
 

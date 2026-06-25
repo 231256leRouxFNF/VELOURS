@@ -42,7 +42,7 @@ A luxury bridal and formalwear landing page inspired by modern couture fashion b
 
 ## Mockups
 
-![Mockup 2](assets/mockups/mockup2.png)
+![Mockup 2](assets/mockups/mockup-2.png)
 
 ![Mockup 3](assets/mockups/mockup-3.png)
 
